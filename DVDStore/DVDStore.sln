@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2011
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVDStore.Web", "DVDStore.Web\DVDStore.Web.csproj", "{A5C4CF36-E8FE-42DC-8987-5B5D46D440BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVDStore.DataBase", "DVDStore.DataBase\DVDStore.DataBase.csproj", "{C08A6F3A-BBE8-499A-BD6A-100C9E81AA63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A5C4CF36-E8FE-42DC-8987-5B5D46D440BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5C4CF36-E8FE-42DC-8987-5B5D46D440BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5C4CF36-E8FE-42DC-8987-5B5D46D440BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C08A6F3A-BBE8-499A-BD6A-100C9E81AA63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C08A6F3A-BBE8-499A-BD6A-100C9E81AA63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C08A6F3A-BBE8-499A-BD6A-100C9E81AA63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C08A6F3A-BBE8-499A-BD6A-100C9E81AA63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
