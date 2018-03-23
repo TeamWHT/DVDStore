@@ -47,9 +47,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrations\201803231408216_Initial.cs" />
-    <Compile Include="Migrations\201803231408216_Initial.Designer.cs">
-      <DependentUpon>201803231408216_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\201803231517130_Initial.cs" />
+    <Compile Include="Migrations\201803231517130_Initial.Designer.cs">
+      <DependentUpon>201803231517130_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803231521471_Add-DVDs.cs" />
+    <Compile Include="Migrations\201803231521471_Add-DVDs.Designer.cs">
+      <DependentUpon>201803231521471_Add-DVDs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803231523299_Add-Actors.cs" />
+    <Compile Include="Migrations\201803231523299_Add-Actors.Designer.cs">
+      <DependentUpon>201803231523299_Add-Actors.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Actor.cs" />
@@ -64,8 +72,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201803231408216_Initial.resx">
-      <DependentUpon>201803231408216_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201803231517130_Initial.resx">
+      <DependentUpon>201803231517130_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803231521471_Add-DVDs.resx">
+      <DependentUpon>201803231521471_Add-DVDs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803231523299_Add-Actors.resx">
+      <DependentUpon>201803231523299_Add-Actors.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -73,78 +73,78 @@ namespace DVDStore.DataBase.Migrations
             //        TimeLength = "1h 56min",
 
             //    });
-            //context.Actors.AddOrUpdate(x => x.ID,
-            //    new Actor
-            //    {
-            //        FirstName = "Keanu",
-            //        LastName = "Reeves"
-            //    },
-            //    new Actor
-            //    {
-            //        FirstName = "Bridget",
-            //        LastName = "Moynahan"
-            //    },
-            //    new Actor
-            //    {
-            //        FirstName = "Riccardo",
-            //        LastName = "Scamarcio"
-            //    },
-            //    new Actor
-            //    {
-            //        FirstName = "Jackie",
-            //        LastName = "Chan"
-            //    },
-            //    new Actor
-            //    {
-            //        FirstName = "Chris",
-            //        LastName = "Tucker"
-            //    },
-            //    new Actor
-            //    {
-            //        FirstName = "Elizabeth",
-            //        LastName = "Peña"
-            //    },
-            //    new Actor
-            //    {
-            //        FirstName = "Mel",
-            //        LastName = "Gibson"
-            //    },
-            //    new Actor
-            //    {
-            //        FirstName = "Sophie",
-            //        LastName = "Marceau"
-            //    },
-            //    new Actor
-            //    {
-            //        FirstName = "Angus",
-            //        LastName = "Macfadyen"
-            //    },
-            //    new Actor
-            //    {
-            //        FirstName = "Angelina",
-            //        LastName = "Jolie"
-            //    },
-            //    new Actor
-            //    {
-            //        FirstName = "Colin",
-            //        LastName = "Farrell"
-            //    },
-            //    new Actor
-            //    {
-            //        FirstName = "Anthony",
-            //        LastName = "Hopkins"
-            //    },
-            //    new Actor
-            //    {
-            //        FirstName = "Pierce",
-            //        LastName = "Brosnan"
-            //    },
-            //    new Actor
-            //    {
-            //        FirstName = "Orla",
-            //        LastName = "Brady"
-            //    }
-            //);
+            context.Actors.AddOrUpdate(x => x.ID,
+                new Actor
+                {
+                    FirstName = "Keanu",
+                    LastName = "Reeves"
+                },
+                new Actor
+                {
+                    FirstName = "Bridget",
+                    LastName = "Moynahan"
+                },
+                new Actor
+                {
+                    FirstName = "Riccardo",
+                    LastName = "Scamarcio"
+                },
+                new Actor
+                {
+                    FirstName = "Jackie",
+                    LastName = "Chan"
+                },
+                new Actor
+                {
+                    FirstName = "Chris",
+                    LastName = "Tucker"
+                },
+                new Actor
+                {
+                    FirstName = "Elizabeth",
+                    LastName = "Peña"
+                },
+                new Actor
+                {
+                    FirstName = "Mel",
+                    LastName = "Gibson"
+                },
+                new Actor
+                {
+                    FirstName = "Sophie",
+                    LastName = "Marceau"
+                },
+                new Actor
+                {
+                    FirstName = "Angus",
+                    LastName = "Macfadyen"
+                },
+                new Actor
+                {
+                    FirstName = "Angelina",
+                    LastName = "Jolie"
+                },
+                new Actor
+                {
+                    FirstName = "Colin",
+                    LastName = "Farrell"
+                },
+                new Actor
+                {
+                    FirstName = "Anthony",
+                    LastName = "Hopkins"
+                },
+                new Actor
+                {
+                    FirstName = "Pierce",
+                    LastName = "Brosnan"
+                },
+                new Actor
+                {
+                    FirstName = "Orla",
+                    LastName = "Brady"
+                }
+            );
 
 
 

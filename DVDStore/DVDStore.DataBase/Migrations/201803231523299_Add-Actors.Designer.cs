@@ -7,13 +7,13 @@ namespace DVDStore.DataBase.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class Initial : IMigrationMetadata
+    public sealed partial class AddActors : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Initial));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(AddActors));
         
         string IMigrationMetadata.Id
         {
-            get { return "201803231408216_Initial"; }
+            get { return "201803231523299_Add-Actors"; }
         }
         
         string IMigrationMetadata.Source

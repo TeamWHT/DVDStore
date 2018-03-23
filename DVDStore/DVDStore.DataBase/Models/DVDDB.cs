@@ -22,7 +22,18 @@ namespace DVDStore.DataBase.Models
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Actor>()
+                .HasMany(t => t.DVD_Title)
+                .WithMany(t => t.Actor_Name)
+                .Map(m => 
+                {
+                    m.ToTable("DVDActors");
+                    m.MapLeftKey("Actor_ID");
+                    m.MapRightKey("DVD_ID");
+                });
+            base.OnModelCreating(modelBuilder);
         }
+        
 
     }
 }
