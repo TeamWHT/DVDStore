@@ -10,6 +10,10 @@ namespace DVDStore.DataBase.Models
 {
     public class DVD
     {
+        public DVD()
+        {
+            this.Actor_ID = new HashSet<Actor>();
+        }
         [Key]
         public int ID { get; set; }
         public string Title { get; set; }
@@ -18,7 +22,7 @@ namespace DVDStore.DataBase.Models
         public string Language { get; set; }
         public string Rating { get; set; }
         public int Sold { get; set; }
-        public int Price { get; set; }
+        public string Price { get; set; }
         public virtual ICollection<Actor> Actor_ID { get; set; }
 
     }

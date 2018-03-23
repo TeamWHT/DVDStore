@@ -15,10 +15,14 @@ namespace DVDStore.DataBase.Models
         public DbSet<Actor> Actors { get; set; }
         public DbSet<DVD> DVDs { get; set; }
 
-        //public DVDDB() : base("DVDStoreDB")
-        //{
-        //    Database.SetInitializer(new MigrateDatabaseToLatestVersion<DVDDB, Migrations.Configuration>());
-        //}
+        public DVDDB() : base("DVDStoreDB")
+        {
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<DVDDB, Migrations.Configuration>());
+        }
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+        }
 
     }
 }

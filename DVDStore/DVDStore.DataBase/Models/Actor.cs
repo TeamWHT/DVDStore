@@ -10,6 +10,10 @@ namespace DVDStore.DataBase
 {
     public class Actor
     {
+        public Actor()
+        {
+            this.DVD_ID = new HashSet<DVD>();
+        }
         [Key]
         public int ID { get; set; }
         public string FirstName { get; set; }
