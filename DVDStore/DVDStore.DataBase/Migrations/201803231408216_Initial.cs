@@ -28,7 +28,7 @@ namespace DVDStore.DataBase.Migrations
                         Language = c.String(),
                         Rating = c.String(),
                         Sold = c.Int(nullable: false),
-                        Price = c.Int(nullable: false),
+                        Price = c.String(),
                     })
                 .PrimaryKey(t => t.ID);
             

@@ -47,9 +47,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrations\201803230232446_Initial.cs" />
-    <Compile Include="Migrations\201803230232446_Initial.Designer.cs">
-      <DependentUpon>201803230232446_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\201803231408216_Initial.cs" />
+    <Compile Include="Migrations\201803231408216_Initial.Designer.cs">
+      <DependentUpon>201803231408216_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Actor.cs" />
@@ -58,12 +58,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201803230232446_Initial.resx">
-      <DependentUpon>201803230232446_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201803231408216_Initial.resx">
+      <DependentUpon>201803231408216_Initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

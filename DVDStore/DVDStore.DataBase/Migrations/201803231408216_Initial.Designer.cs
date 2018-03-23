@@ -13,7 +13,7 @@ namespace DVDStore.DataBase.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201803230232446_Initial"; }
+            get { return "201803231408216_Initial"; }
         }
         
         string IMigrationMetadata.Source
