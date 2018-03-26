@@ -23,6 +23,7 @@ namespace DVDStore.DataBase.Models
         public string Rating { get; set; }
         public int Sold { get; set; }
         public string Price { get; set; }
+        public byte[] Image { get; set; }
         public virtual ICollection<Actor> Actor_Name { get; set; }
 
     }

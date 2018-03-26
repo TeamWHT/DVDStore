@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DVDStore.DataBase
+namespace DVDStore.DataBase.Models
 {
     public class Actor
     {
